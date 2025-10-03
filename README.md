@@ -22,13 +22,14 @@ Este proyecto está configurado para ser desplegado automáticamente en Netlify.
 El proyecto incluye:
 
 - ✅ **netlify.toml**: Configuración de build y headers de seguridad
-- ✅ **_redirects**: Manejo de rutas para SPA (Single Page Application)
+- ✅ **\_redirects**: Manejo de rutas para SPA (Single Page Application)
 - ✅ **vite.config.js**: Optimizado para producción con code splitting
 - ✅ **Build exitoso**: Verificado y listo para production
 
 ### Pasos para Deploy en Netlify
 
 1. **Subir a GitHub/GitLab**:
+
    ```bash
    git add .
    git commit -m "Ready for deployment"
@@ -36,6 +37,7 @@ El proyecto incluye:
    ```
 
 2. **Conectar con Netlify**:
+
    - Ve a [netlify.com](https://netlify.com)
    - Click en "Add new site" > "Import an existing project"
    - Conecta tu repositorio de Git
@@ -70,7 +72,7 @@ dist/
 ### Performance
 
 - ✅ **Vendor chunk**: 11.83 kB (4.20 kB gzipped)
-- ✅ **Styled chunk**: 25.90 kB (10.15 kB gzipped)  
+- ✅ **Styled chunk**: 25.90 kB (10.15 kB gzipped)
 - ✅ **App bundle**: 197.51 kB (61.28 kB gzipped)
 - ✅ **Total CSS**: 0.94 kB (0.36 kB gzipped)
 
