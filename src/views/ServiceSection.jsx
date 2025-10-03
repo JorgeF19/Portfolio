@@ -1,9 +1,9 @@
-import Subtitle from "../components/subtitle";
+import Subtitle from "../components/Subtitle";
 import NormalText from "../components/NormalText";
-import Section from "../components/section";
+import Section from "../components/Section";
 import SubtitleService from "../components/SubtitleServices";
-import ImgServiceComponent from "../components/imgServices";
-import BannerService from "../components/bannerService";
+import ImgServiceComponent from "../components/ImgServices";
+import BannerService from "../components/BannerService";
 import ItemService from "../components/ItemService";
 import { useState, useEffect, useRef } from "react";
 import BannerTitle from "../components/BannerTitle";

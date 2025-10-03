@@ -1,5 +1,5 @@
-import Section from "../components/section";
-import Subtitle from "../components/subtitle";
+import Section from "../components/Section";
+import Subtitle from "../components/Subtitle";
 import NormalText from "../components/NormalText";
 import DinamicNumberComponent from "../components/DinamicNumber";
 import ContainerCenterComponent from "../components/ContainerCenter";

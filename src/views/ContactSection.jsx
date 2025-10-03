@@ -1,5 +1,5 @@
-import SectionComponent from "../components/section";
-import Subtitle from "../components/subtitle";
+import SectionComponent from "../components/Section";
+import Subtitle from "../components/Subtitle";
 import Title from "../components/ContactSection.jsx/Title";
 import NormalTextComponent from "../components/NormalText";
 import {
@@ -7,7 +7,7 @@ import {
   SecondaryButtonComponent,
 } from "../components/ContactSection.jsx/Buttons";
 import { AnimatedChatContainer } from "../components/ContactSection.jsx/ChatAnimation/Message";
-import ButtonsContainer from "../components/ContactSection.jsx/buttonsContainer";
+import ButtonsContainer from "../components/ContactSection.jsx/ButtonsContainer";
 
 const ContactSection = () => {
   const chatMessages = [

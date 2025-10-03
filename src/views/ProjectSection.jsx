@@ -1,5 +1,5 @@
-import SectionComponent from "../components/section";
-import Subtitle from "../components/subtitle";
+import SectionComponent from "../components/Section";
+import Subtitle from "../components/Subtitle";
 import ProyectCard from "../components/ProyectSection/ProyectCard";
 import ProyectsContainer from "../components/ProyectSection/ProyectsContainer";
 const ProjectSection = () => {

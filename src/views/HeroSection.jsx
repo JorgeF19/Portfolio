@@ -1,8 +1,8 @@
-import Section from "../components/section";
+import Section from "../components/Section";
 import HeroText from "../components/HeroTitle";
 import HeroSubtitle from "../components/HeroSubtitle";
 import HeroSubtitleContainer from "../components/HeroSubtitleContainer";
-import Subtitle from "../components/subtitle";
+import Subtitle from "../components/Subtitle";
 import NormalText from "../components/NormalText";
 import IconComponent from "../components/Icon";
 function HeroSection() {
