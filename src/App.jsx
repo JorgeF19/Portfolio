@@ -6,7 +6,7 @@ import AboutSection from "./views/AboutSection";
 import ServiceSection from "./views/ServiceSection";
 import ProjectSection from "./views/ProjectSection";
 import ContactSection from "./views/ContactSection";
-import Footer from "./views/footer";
+import Footer from "./views/Footer";
 function App() {
   return (
     <>
