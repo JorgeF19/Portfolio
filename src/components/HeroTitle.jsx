@@ -14,6 +14,22 @@ const HeroTitle = styled.h1`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin-left: ${(props) => props.marginLeft || "0"};
   margin-right: ${(props) => props.marginRight || "0"};
+
+  @media (max-width: 1224px) {
+    font-size: 8rem;
+  }
+  @media (max-width: 768px) {
+    font-size: 6rem;
+  }
+  @media (max-width: 768px) {
+    font-size: 6rem;
+  }
+  @media (max-width: 580px) {
+    font-size: 4rem;
+  }
+  @media (max-width: 500px) {
+    font-size: 3rem;
+  }
 `;
 
 function HeroText({ children, marginLeft, marginRight }) {

@@ -13,7 +13,21 @@ const Section = styled.section`
   min-height: 100vh;
   box-sizing: border-box;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
+
+  /* Tablet/Medium views - 6 columns */
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+
+  /* Mobile views - 3 columns */
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1.5rem;
+  }
 `;
 
 function SectionComponent({
