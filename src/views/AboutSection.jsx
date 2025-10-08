@@ -13,9 +13,8 @@ const StatsContainer = styled.div`
   grid-column: ${(props) => props.gridColumn};
   grid-row: ${(props) => props.gridRow};
   display: flex;
-
-  align-items: center;
   justify-content: space-evenly;
+  align-items: flex-start;
 
   @media (max-width: 1024px) {
     grid-row: 10 / 12;
@@ -23,12 +22,22 @@ const StatsContainer = styled.div`
   }
   @media (max-width: 900px) {
     grid-column: 1 / 6;
-
     margin-bottom: ${(props) => props.mobileMargin || "0"};
   }
   @media (max-width: 768px) {
     grid-column: 1 / 4;
+    grid-row: 10 / 13;
   }
+`;
+
+// Componente reutilizable para los números y texto
+const NumberContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 40%;
 `;
 function AboutSection() {
   return (
@@ -43,35 +52,19 @@ function AboutSection() {
       <ImgAboutComponent src="AboutImage.png" alt="aboutImage" />
 
       <StatsContainer gridColumn="2 / 7" gridRow="8 / 12" mobileMargin="1rem">
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            textAlign: "center",
-            width: "40%",
-          }}
-        >
+        <NumberContainer>
           <DinamicNumberComponent targetNumber={1}>0</DinamicNumberComponent>
           <NormalText fontSize={"2rem"} style={{ marginTop: "0" }}>
             years of experience as developer
           </NormalText>
-        </div>
+        </NumberContainer>
 
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            textAlign: "center",
-            width: "40%",
-          }}
-        >
+        <NumberContainer>
           <DinamicNumberComponent targetNumber={3}>0</DinamicNumberComponent>
           <NormalText fontSize={"2rem"} style={{ marginTop: "0" }}>
             Proyects
           </NormalText>
-        </div>
+        </NumberContainer>
       </StatsContainer>
     </Section>
   );
