@@ -11,6 +11,7 @@ const Container = styled.div`
   }
     @media (max-width: 768px) {
     grid-column: 1 / 4;
+    grid-row: 6 / 8;
 `;
 
 function ContainerComponent({ children }) {

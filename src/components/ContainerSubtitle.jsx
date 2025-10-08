@@ -14,7 +14,7 @@ const Container = styled.div`
   }
   @media (max-width: 768px) {
     grid-column: 1 / 4;
-    grid-row: 6 / 9;
+    grid-row: 5 / 8;
   }
 `;
 function ContainerSubtitle({ children }) {

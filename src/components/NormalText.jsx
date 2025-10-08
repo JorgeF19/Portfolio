@@ -11,6 +11,11 @@ const NormalText = styled.p`
     font-size: 1.6rem;
     font-weight: 500;
   }
+  @media (max-width: 400px) {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4;
+  }
 `;
 function NormalTextComponent({ children, fontSize, style }) {
   return (
