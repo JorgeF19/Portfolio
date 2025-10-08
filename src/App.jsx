@@ -18,7 +18,7 @@ function App() {
       <ContactSection />
       <Footer />
       <a
-        href="https://wa.me/qr/SPOZTAC4JOW6N1"
+        href="https://wa.me/+573022568113"
         style={{
           position: "fixed",
           right: "2rem",

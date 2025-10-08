@@ -6,6 +6,11 @@ const NormalText = styled.p`
   font-size: ${(props) => props.fontSize || "1.5rem"};
   font-style: normal;
   font-weight: 400;
+
+  @media (max-width: 900px) {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
 `;
 function NormalTextComponent({ children, fontSize, style }) {
   return (

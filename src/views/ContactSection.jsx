@@ -29,7 +29,7 @@ const ContactSection = () => {
       </div>
 
       <ButtonsContainer>
-        <ButtonsComponent link="https://wa.me/qr/SPOZTAC4JOW6N1">
+        <ButtonsComponent link="https://wa.me/+573022568113">
           Whatsapp
         </ButtonsComponent>
         <SecondaryButtonComponent copyText={"jwjf19@gmail.com"}>

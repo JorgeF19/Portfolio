@@ -9,6 +9,9 @@ const DinamicNumber = styled.h1`
   font-weight: 700;
   line-height: normal;
   margin: 0;
+
+  @media (max-width: 1224px) {
+  font-size: 4rem;
 `;
 
 function DinamicNumberComponent({ targetNumber, duration = 1000 }) {
